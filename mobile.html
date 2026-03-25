@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mockup iPhone 17</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(135deg, #0a0a0a, #111111);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .iphone {
+        width: 280px;
+        background: linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%);
+        border-radius: 50px;
+        padding: 12px;
+        box-shadow:
+          0 0 0 1px #333,
+          0 0 0 3px #222,
+          0 30px 80px rgba(0, 0, 0, 0.9),
+          inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+        position: relative;
+      }
+
+      .btn-power {
+        position: absolute;
+        right: -4px;
+        top: 100px;
+        width: 4px;
+        height: 60px;
+        background: linear-gradient(180deg, #333, #222);
+        border-radius: 0 3px 3px 0;
+      }
+
+      .btn-volume-up {
+        position: absolute;
+        left: -4px;
+        top: 80px;
+        width: 4px;
+        height: 35px;
+        background: linear-gradient(180deg, #333, #222);
+        border-radius: 3px 0 0 3px;
+      }
+
+      .btn-volume-down {
+        position: absolute;
+        left: -4px;
+        top: 125px;
+        width: 4px;
+        height: 35px;
+        background: linear-gradient(180deg, #333, #222);
+        border-radius: 3px 0 0 3px;
+      }
+
+      .iphone-screen {
+        width: 100%;
+        height: 520px;
+        background: #fff;
+        border-radius: 40px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .dynamic-island {
+        position: absolute;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90px;
+        height: 28px;
+        background: #000;
+        border-radius: 20px;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 8px;
+        gap: 5px;
+      }
+
+      .camera-dot {
+        width: 10px;
+        height: 10px;
+        background: #1a1a1a;
+        border-radius: 50%;
+        border: 2px solid #222;
+      }
+
+      .camera-light {
+        width: 5px;
+        height: 5px;
+        background: #0a4a6e;
+        border-radius: 50%;
+      }
+
+      /* iframe começa ABAIXO da dynamic island */
+      .iphone-screen iframe {
+        width: 200%;
+        height: 190%;
+        border: none;
+        scrollbar-width: none;
+        pointer-events: none;
+        transform: scale(0.5);
+        transform-origin: top left;
+        position: absolute;
+        top: 55px; /* empurra para baixo da câmera */
+        left: 0;
+      }
+
+      .iphone-screen iframe::-webkit-scrollbar {
+        display: none;
+      }
+
+      .home-bar {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 5px;
+        background: #333;
+        border-radius: 10px;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="iphone">
+      <div class="btn-power"></div>
+      <div class="btn-volume-up"></div>
+      <div class="btn-volume-down"></div>
+
+      <div class="iphone-screen">
+        <div class="dynamic-island">
+          <div class="camera-light"></div>
+          <div class="camera-dot"></div>
+        </div>
+
+        <iframe src="index.html"></iframe>
+
+        <div class="home-bar"></div>
+      </div>
+    </div>
+  </body>
+</html>

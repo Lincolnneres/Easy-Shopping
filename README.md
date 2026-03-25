@@ -5,12 +5,11 @@
 **Landing page moderna com foco em experiência mobile-first**
 
 <p align="center">
-  <table>
-    <tr>
-      <td><img src="./assets/DesktopMockup.png" alt="Desktop" width="790" /></td>
-      <td><img src="./assets/mobileMockup.png" alt="Mobile" width="760" /></td>
-    </tr>
-  </table>
+
+| Desktop                                | Mobile                               |
+| -------------------------------------- | ------------------------------------ |
+| ![Desktop](./assets/DesktopMockup.png) | ![Mobile](./assets/mobileMockup.png) |
+
 </p>
 
 <p align="center">
@@ -111,8 +110,6 @@ O projeto está disponível online. Acesse pelo link abaixo:
 [![Acessar Demo](https://img.shields.io/badge/🌐_Acessar_Projeto-4CAF50?style=for-the-badge)](# "Link do deploy")
 
 </div>
-
-
 
 ## 🧑‍💻 Autor
 

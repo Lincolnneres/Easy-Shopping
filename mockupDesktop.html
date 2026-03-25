@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mockup iMac</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #d0d0d0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .imac {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .imac-body {
+        width: 720px;
+        background: linear-gradient(180deg, #e8e8e8 0%, #d5d5d5 100%);
+        border-radius: 16px 16px 0 0;
+        padding: 18px 18px 10px 18px;
+        box-shadow:
+          0 0 0 1px #b0b0b0,
+          0 20px 60px rgba(0, 0, 0, 0.4);
+      }
+
+      .imac-camera {
+        width: 8px;
+        height: 8px;
+        background: #555;
+        border-radius: 50%;
+        margin: 0 auto 8px auto;
+        box-shadow: 0 0 0 2px #444;
+      }
+
+      .imac-screen {
+        width: 100%;
+        height: 425px;
+        background: #fff;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .imac-screen iframe {
+        width: 200%;
+        height: 200%;
+        border: none;
+        overflow: hidden;
+        scrollbar-width: none;
+        pointer-events: none;
+        transform: scale(0.5);
+        transform-origin: top left;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .imac-screen iframe::-webkit-scrollbar {
+        display: none;
+      }
+
+      .imac-chin {
+        width: 720px;
+        height: 30px;
+        background: linear-gradient(180deg, #d5d5d5, #c8c8c8);
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 0 0 1px #b0b0b0;
+      }
+
+      .imac-neck {
+        width: 120px;
+        height: 50px;
+        background: linear-gradient(180deg, #c0c0c0, #b5b5b5);
+        clip-path: polygon(30% 0%, 70% 0%, 80% 100%, 20% 100%);
+      }
+
+      .imac-base {
+        width: 280px;
+        height: 12px;
+        background: linear-gradient(180deg, #b8b8b8, #a8a8a8);
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imac">
+      <div class="imac-body">
+        <div class="imac-camera"></div>
+        <div class="imac-screen">
+          <iframe src="index.html"></iframe>
+        </div>
+      </div>
+      <div class="imac-chin"></div>
+      <div class="imac-neck"></div>
+      <div class="imac-base"></div>
+    </div>
+  </body>
+</html>
