@@ -107,7 +107,7 @@ O projeto está disponível online. Acesse pelo link abaixo:
 
 <div align="center">
 
-[![Acessar Demo](https://img.shields.io/badge/🌐_Acessar_Projeto-4CAF50?style=for-the-badge)](# "Link do deploy")
+[![Acessar Demo](https://lincolnneres.github.io/Easy-Shopping/)](# "Link do deploy")
 
 </div>
 
@@ -117,8 +117,7 @@ O projeto está disponível online. Acesse pelo link abaixo:
 
 Feito com ❤️ por **Lincoln**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEU-USUARIO)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU-USUARIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lincolnneres)
 
 </div>
 
