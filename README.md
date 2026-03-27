@@ -107,7 +107,7 @@ O projeto está disponível online. Acesse pelo link abaixo:
 
 <div align="center">
 
-[![Acessar Demo](https://img.shields.io/badge/Acessar_Projeto-4CAF50?style=for-the-badge)]("https://lincolnneres.github.io/Easy-Shopping/")
+[![Acessar Demo](https://img.shields.io/badge/Acessar_Projeto-4CAF50?style=for-the-badge)](# "https://lincolnneres.github.io/Easy-Shopping/")
 
 </div>
 
